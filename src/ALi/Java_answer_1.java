@@ -1,12 +1,13 @@
-package Java_Answers;
+package ALi;
+
 import java.util.ArrayList;
 import java.util.Arrays;
 
-public class Answer_1 {
+public class Java_answer_1 {
     public static void main(String[] args) {
         // 1-8-9-2-6-6-1-3-5-5
-       ArrayList<Integer>numbers=new ArrayList<Integer>(Arrays.asList(1,8,9,2,6,6,1,3,5,5));
-       ArrayList<Integer>soretedNumbers=new ArrayList<>();
+        ArrayList<Integer> numbers=new ArrayList<Integer>(Arrays.asList(1,8,9,2,6,6,1,3,5,5));
+        ArrayList<Integer>soretedNumbers=new ArrayList<>();
 
         for (int i = 0; i < numbers.size(); i++) {
             if (!soretedNumbers.contains(numbers.get(i))){
@@ -15,6 +16,6 @@ public class Answer_1 {
         }
 
 
-       System.out.println(soretedNumbers);
+        System.out.println(soretedNumbers);
     }
 }
