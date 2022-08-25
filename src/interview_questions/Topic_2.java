@@ -1,6 +1,6 @@
-package InterviewQuestionsByMazlum;
+package interview_questions;
 
-public class InterviewQuestions {
+public class Topic_2 {
 //    What are different types of Automation Testing?
 //
 //    Unit tests (Explain these test cases and when we need them?)
